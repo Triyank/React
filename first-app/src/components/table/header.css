@@ -3,4 +3,6 @@
 body tr th{
     color:darkseagreen ;
     text-align: center;
+    border : 1px solid blue
 }
+/* body      */
