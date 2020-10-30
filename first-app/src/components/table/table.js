@@ -3,15 +3,7 @@ import Body from './body.js'
 import './table.css'
 import CreateHeader from './Header'
 
-
-
-
-export default function CreateTable (props) {
-
-    // let name=props.name
-    // let department=props.department
-    // let level=props.level
-
+export default function CreateTable () {
     let data = [
       { name:"Triyank", department:"Development", level:"Trainee"},
       { name:"Shivam" ,department:"Development", level:"Trainee"},
@@ -21,7 +13,6 @@ export default function CreateTable (props) {
       { name:"Shivani", department:"Development", level:"Trainee"}
     ]
     return(
-        <>
             <table>
                 <thead>
                     <tr>
@@ -32,6 +23,5 @@ export default function CreateTable (props) {
                         <Body Data={data}/>
                 </tbody>
             </table>
-        </>
     )
 }
